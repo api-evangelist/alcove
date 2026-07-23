@@ -1,7 +1,13 @@
 aid: alcove
 name: Alcove
-description: Alcove is a company surfaced as a portfolio company of menlo-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Alcove is an AI-powered procurement and project management platform built for interior
+  designers, contractors, event planners, and purchasing agents. It consolidates product details,
+  quotes, financials, and order tracking into a single hub, automatically tracking orders across
+  vendors and projects, managing tasks and timelines, calculating profitability and markups, and
+  offering a purchasing service with Designer Net discounts. An AI assistant surfaces financial
+  insights, suggests markups, reviews approvals, and powers filtering. Alcove is a Menlo Ventures
+  portfolio company. As of this enrichment pass it publishes a marketing site and web application but
+  no public API, developer documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/alcove/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,30 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.alcove.co/assets/alcove-og-image.jpeg
 tags:
 - Company
+- Procurement
+- Project Management
+- Interior Design
+- Purchasing
+- Order Tracking
+- Artificial Intelligence
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/alcove-domain-security.yml
 - type: Website
   url: https://alcove.co
+- type: Pricing
+  url: https://alcove.co/pricing/
+- type: SignUp
+  url: https://app.alcove.co/signup/
+- type: TermsOfService
+  url: https://alcove.co/terms/
+- type: PrivacyPolicy
+  url: https://alcove.co/privacy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
