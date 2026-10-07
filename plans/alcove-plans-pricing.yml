@@ -1,0 +1,43 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://alcove.co/pricing/
+sources:
+- https://alcove.co/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Procurement Tier
+published: true
+note: Interior design procurement SaaS; two monthly tiers plus per-seat add-on. AI Assistant free during
+  beta, later optional add-on. No API pricing stated.
+plan_count: 2
+currency: USD
+plans:
+- name: Procurement Tier
+  price_text: $75.00 / month
+  price: 75
+  currency: USD
+  period: month
+  unit: subscription
+  included_quota: Purchase Order Management, Vendor Payments and Invoices, Product Status, Lead Time Management,
+    Automatic Tracking with FedEx, UPS & USPS, Sharable Project Schedules, Team Collaboration, Project
+    Dashboard, Product Clipper with AI extraction, Pinterest Integration; 14 Day Free Trial
+  overage: +$35 for each additional seat per month
+- name: Professional Tier
+  price_text: $99.00 / month
+  price: 99
+  currency: USD
+  period: month
+  unit: subscription
+  included_quota: Everything in the Procurement Plan + Client Estimates, Client Invoices, Integrated Client
+    Payments, Project Financials, Project Profitability, Quickbooks Integration, Gmail Integration, Client
+    & Vendor Communication management, Inbox Organization; 14 Day Free Trial
+  overage: +$35 for each additional seat per month
